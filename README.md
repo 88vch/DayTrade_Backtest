@@ -1,8 +1,8 @@
-# backtest
+# Backtest
 automated hypothetical trades logged as backtests
 
 
-### notes
+### Notes
 pull data from website on $(STOCK)
 dump data into a file (json)
 load data into dict()
