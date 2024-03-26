@@ -10,5 +10,5 @@ do something to data (check if setups are possible)
 finally post results to notion
 
 ### (RE)Sources
-Stock API: https://www.alphavantage.co/documentation/
+Stock API: https://www.alphavantage.co/documentation/ \n
 Notion API: https://developers.notion.com/reference/intro
