@@ -29,9 +29,20 @@ Machine Learning Financial Laboratory(MLfinLab): https://www.mlfinlab.com/en/lat
 - how to backtest, how to ensure your testing is valid
 
 ### TODO
+NEW NOTES;
+- [crawler.py]
+- validate AlphaVantage stock price accuracy
+
+
+OLD NOTES;
 - EITHER try to figure out why AlphaVantage Stock API is not giving correct data
 - OR find a new free Stock API that will give you the correct data
 
+
+NEW GOAL;
+- futures (consistent pricing), but first: backtesting & data collection
+
+OLD GOAL;
 - find free options data
     - once you have determined that you have found a trade you will take, 
     - DAY-TRADES: compare options volumes and choose option with
