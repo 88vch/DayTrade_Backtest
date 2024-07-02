@@ -177,11 +177,11 @@ def create_page(data: dict):
 
 if __name__ == "__main__":
     test_date = "03/28/2024"
-    test_setup = "ICT Power of 3 AM"
+    test_setup = "ICT The One"
     test_rr = "1:4"
     test_pl = "+75"
     test_time = "41.5"
-    test_timeSig = "hour(s)"
+    test_timeSig = "sec(s)"
 
     data = {
         "Date": {"title": [{"text": {"content": test_date}}]},
@@ -192,7 +192,9 @@ if __name__ == "__main__":
         "Time Signature": {"multi_select": [{"name": test_timeSig}]}
     }
 
-    # if is_valid(data):
-    #     create_page(data)
-    res = get_pages(5)
-    show_pages(res)
+    if is_valid(data):
+        create_page(data)
+    else:
+        print(f"data is not valid!")
+    # res = get_pages(5)
+    # show_pages(res)
