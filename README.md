@@ -25,7 +25,7 @@ TIME_SERIES_INTRADAY: interval = [1min], [5min], [15min], [30min]
 ### (RE)Sources
 AlphaVantage (Stock API): https://www.alphavantage.co/documentation/ <br />
 Notion API: https://developers.notion.com/reference/intro <br />
-Machine Learning Financial Laboratory(MLfinLab): https://www.mlfinlab.com/en/latest/backtest_overfitting/sevenpoint_protocol.html
+Machine Learning Financial Laboratory(MLfinLab): [https://www.mlfinlab.com/en/latest/backtest_overfitting/sevenpoint_protocol.html](https://www.mlfinlab.com/en/latest/backtest_overfitting/sevenpoint_protocol.html)
 - how to backtest, how to ensure your testing is valid
 
 ### TODO
